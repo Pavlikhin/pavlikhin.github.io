@@ -1,0 +1,107 @@
+
+html,
+body {
+  height: 100%;
+  background-color: #9a9da0;
+}
+
+.carousel, .carousel-inner, .carousel-inner .carousel-item, .carousel-inner img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.fon_carousel1 {
+    width: 100%;
+    height: 665.96px;
+    background: linear-gradient(to right, #666699 0%, #669999 100%);
+}
+
+.fon_carousel2 {
+    width: 100%;
+    height: 665.96px;
+    background: linear-gradient(to right, #666699 0%, #999966 100%);
+}
+
+.fon_carousel3 {
+    width: 100%;
+    height: 665.96px;
+    background: linear-gradient(to right, #666699 0%, #006666 100%);
+}
+
+.fon_carousel4 {
+    width: 100%;
+    height: 665.96px;
+    background: linear-gradient(to right, #666699 0%, #999966 100%);
+}
+
+.carousel_text {
+    width: 100%;
+    padding-top: 315px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.carousel_info {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.chat_room {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.chat_room::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.chat_room img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+/* Style the right image */
+.chat_room img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.container_ip {
+    margin-top: 100px;
+}
